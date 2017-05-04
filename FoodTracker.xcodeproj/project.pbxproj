@@ -14,6 +14,10 @@
 		D7237AC61E949DC300CA2BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7237AC41E949DC300CA2BCC /* LaunchScreen.storyboard */; };
 		D7237AD11E949DC300CA2BCC /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7237AD01E949DC300CA2BCC /* FoodTrackerTests.swift */; };
 		D7237ADC1E949DC300CA2BCC /* FoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7237ADB1E949DC300CA2BCC /* FoodTrackerUITests.swift */; };
+		D790852F1E9F245600015524 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D790852E1E9F245600015524 /* RatingControl.swift */; };
+		D79085311EA075F200015524 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79085301EA075F200015524 /* Meal.swift */; };
+		D79085331EA093D500015524 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79085321EA093D500015524 /* MealTableViewCell.swift */; };
+		D79085351EA5C0D000015524 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79085341EA5C0D000015524 /* MealTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		D7237AD71E949DC300CA2BCC /* FoodTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7237ADB1E949DC300CA2BCC /* FoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerUITests.swift; sourceTree = "<group>"; };
 		D7237ADD1E949DC300CA2BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D790852E1E9F245600015524 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		D79085301EA075F200015524 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		D79085321EA093D500015524 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		D79085341EA5C0D000015524 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +107,11 @@
 			children = (
 				D7237ABB1E949DC300CA2BCC /* AppDelegate.swift */,
 				D7237ABD1E949DC300CA2BCC /* ViewController.swift */,
+				D790852E1E9F245600015524 /* RatingControl.swift */,
+				D79085301EA075F200015524 /* Meal.swift */,
 				D7237ABF1E949DC300CA2BCC /* Main.storyboard */,
+				D79085341EA5C0D000015524 /* MealTableViewController.swift */,
+				D79085321EA093D500015524 /* MealTableViewCell.swift */,
 				D7237AC21E949DC300CA2BCC /* Assets.xcassets */,
 				D7237AC41E949DC300CA2BCC /* LaunchScreen.storyboard */,
 				D7237AC71E949DC300CA2BCC /* Info.plist */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D79085311EA075F200015524 /* Meal.swift in Sources */,
 				D7237ABE1E949DC300CA2BCC /* ViewController.swift in Sources */,
+				D790852F1E9F245600015524 /* RatingControl.swift in Sources */,
 				D7237ABC1E949DC300CA2BCC /* AppDelegate.swift in Sources */,
+				D79085351EA5C0D000015524 /* MealTableViewController.swift in Sources */,
+				D79085331EA093D500015524 /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +521,7 @@
 				D7237AE21E949DC300CA2BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7237AE31E949DC300CA2BCC /* Build configuration list for PBXNativeTarget "FoodTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				D7237AE51E949DC300CA2BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7237AE61E949DC300CA2BCC /* Build configuration list for PBXNativeTarget "FoodTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				D7237AE81E949DC300CA2BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
